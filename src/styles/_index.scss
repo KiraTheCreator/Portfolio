@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+$first-color: #004E64;
+$second-color: #00A5CF;
+$third-color: #9FFFCB;
+$fourth-color: #25A18E;
+$fifth-color: #7AE582;
+
+$font-family: 'Roboto Condensed', sans-serif;
+$font-light: 300;
+$font-regular: 400;
+$font-bold: 700;
+
+@mixin nav-text {
+  font-family: $font-family;
+  font-weight: $font-light;
+  font-size: 17px;
+}
+
+$nav-text-responsive: 14px;
+$nav-animations: 0.3s ease-out;
+
+strong {
+    color: $third-color;
+    font-weight: $font-regular;
+}
+
+* {
+ box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
